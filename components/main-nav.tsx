@@ -17,8 +17,13 @@ export function MainNav({ className }: Props) {
 
   return (
     <div className={cn('mr-4 hidden md:flex', className)}>
-      <Link href='/' className='mr-6 flex items-center space-x-2'>
+      <Link
+        href='/'
+        className='mr-6 flex items-center justify-center space-x-2'
+      >
         {/* <Icons.logo className="h-6 w-6" /> */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src='/cornfed.svg' alt='Cornfed Studio' className='h-8 w-8' />
         <span className='hidden font-bold sm:inline-block'>
           {siteConfig.name}
         </span>
