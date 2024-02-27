@@ -23,12 +23,16 @@ export function MainNav({ className }: Props) {
       >
         {/* <Icons.logo className="h-6 w-6" /> */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src='/cornfed.svg' alt='Cornfed Studio' className='h-8 w-8' />
+        <img
+          src='/cornfed.svg'
+          alt='Cornfed Studio'
+          className='h-8 w-8 rounded-lg bg-[color:hsl(222.2,84%,4.9%)] dark:bg-none'
+        />
         <span className='hidden font-bold sm:inline-block'>
           {siteConfig.name}
         </span>
       </Link>
-      <nav className='flex items-center gap-6 text-sm'>
+      {/* <nav className='flex items-center gap-6 text-sm'>
         <Link
           href='/docs'
           className={cn(
@@ -79,7 +83,7 @@ export function MainNav({ className }: Props) {
         >
           GitHub
         </Link>
-      </nav>
+      </nav> */}
     </div>
   )
 }

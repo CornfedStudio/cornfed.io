@@ -22,7 +22,12 @@ export function MobileNav() {
           variant='ghost'
           className='mr-2 space-x-2 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden'
         >
-          <img src='/cornfed.svg' alt='Cornfed Studio' className='h-8 w-8' />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src='/cornfed.svg'
+            alt='Cornfed Studio'
+            className='h-8 w-8 rounded-lg bg-[color:hsl(222.2,84%,4.9%)] dark:bg-none'
+          />
           <svg
             strokeWidth='1.5'
             viewBox='0 0 24 24'
