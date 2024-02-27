@@ -56,7 +56,7 @@ export default function LogoList() {
           width='520'
           height='182'
           decoding='async'
-          className='h-12 blur-0 grayscale transition-all dark:invert'
+          className='h-8 blur-0 grayscale transition-all dark:invert'
           src='/logos/dapper_labs.svg'
           style={{ color: 'transparent' }}
         />
@@ -76,23 +76,23 @@ export default function LogoList() {
         href='/customers'
       >
         <img
-          alt='E-SPORTS MOGUL'
+          alt='DIVISION STREET'
           loading='lazy'
           width='520'
           height='182'
           decoding='async'
           className='h-8 blur-0 grayscale transition-all dark:invert'
-          src='/logos/esports_mogul.svg'
+          src='/logos/division_street.svg'
           style={{ color: 'transparent' }}
         />
         <img
-          alt='FAWC'
+          alt='SWISS CONTACT'
           loading='lazy'
           width='520'
           height='182'
           decoding='async'
-          className='h-8 blur-0 grayscale transition-all dark:invert'
-          src='/logos/fawc.svg'
+          className='h-7 blur-0 grayscale transition-all dark:invert'
+          src='/logos/swiss_contact.svg'
           style={{ color: 'transparent' }}
         />
         <img
