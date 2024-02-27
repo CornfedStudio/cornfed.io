@@ -32,10 +32,10 @@ export default function Footer() {
         </p>
         <div className='mt-4 space-x-6 text-sm'>
           <Link
-            href='/onboard'
+            href='/start'
             className={cn(
               'transition-colors hover:text-foreground/80',
-              pathname?.startsWith('/onboard')
+              pathname?.startsWith('/start')
                 ? 'text-foreground'
                 : 'text-foreground/60'
             )}

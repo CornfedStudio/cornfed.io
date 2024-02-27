@@ -15,7 +15,7 @@ import { useState } from 'react'
 const mainNav = [
   {
     title: 'Get Started',
-    href: '/onboard'
+    href: '/start'
   },
   {
     title: 'Contact Us',

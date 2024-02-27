@@ -34,10 +34,10 @@ export function MainNav({ className }: Props) {
       </Link>
       <nav className='flex items-center gap-6 text-sm'>
         <Link
-          href='/onboard'
+          href='/start'
           className={cn(
             'transition-colors hover:text-foreground/80',
-            pathname?.startsWith('/onboard')
+            pathname?.startsWith('/start')
               ? 'text-foreground'
               : 'text-foreground/60'
           )}
