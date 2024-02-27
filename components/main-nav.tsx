@@ -32,58 +32,39 @@ export function MainNav({ className }: Props) {
           {siteConfig.name}
         </span>
       </Link>
-      {/* <nav className='flex items-center gap-6 text-sm'>
+      <nav className='flex items-center gap-6 text-sm'>
         <Link
-          href='/docs'
+          href='/onboard'
           className={cn(
             'transition-colors hover:text-foreground/80',
-            pathname === '/docs' ? 'text-foreground' : 'text-foreground/60'
-          )}
-        >
-          Docs
-        </Link>
-        <Link
-          href='/docs/components'
-          className={cn(
-            'transition-colors hover:text-foreground/80',
-            pathname?.startsWith('/docs/components')
+            pathname?.startsWith('/onboard')
               ? 'text-foreground'
               : 'text-foreground/60'
           )}
         >
-          Components
+          Get Started
         </Link>
         <Link
-          href='/themes'
+          href='/contact'
           className={cn(
             'transition-colors hover:text-foreground/80',
-            pathname?.startsWith('/themes')
+            pathname?.startsWith('/contact')
               ? 'text-foreground'
               : 'text-foreground/60'
           )}
         >
-          Themes
-        </Link>
-        <Link
-          href='/examples'
-          className={cn(
-            'transition-colors hover:text-foreground/80',
-            pathname?.startsWith('/examples')
-              ? 'text-foreground'
-              : 'text-foreground/60'
-          )}
-        >
-          Examples
+          Contact Us
         </Link>
         <Link
           href={siteConfig.links.github}
+          target='_blank'
           className={cn(
-            'hidden text-foreground/60 transition-colors hover:text-foreground/80 lg:block'
+            'text-foreground/60 transition-colors hover:text-foreground/80'
           )}
         >
           GitHub
         </Link>
-      </nav> */}
+      </nav>
     </div>
   )
 }

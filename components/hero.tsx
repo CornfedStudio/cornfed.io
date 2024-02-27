@@ -6,7 +6,7 @@ export default function Hero() {
     <div className='mx-auto my-12 max-w-md px-2.5 text-center sm:max-w-lg sm:px-0'>
       <Link
         className='group mx-auto flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-primary bg-background px-7 py-2 backdrop-blur transition-all hover:border-primary/60'
-        href='/onboarding'
+        href='/onboard'
       >
         <p className='text-sm font-semibold text-primary [text-wrap:balance]'>
           Submit new client proposal
@@ -47,11 +47,11 @@ export default function Hero() {
           Web3 Partner
         </span>
       </h1>
-      <h2 className='mt-5 text-muted-foreground sm:text-xl'>
+      <h2 className='mt-5 text-foreground/80 sm:text-xl'>
         Full-stack studio for everything web3.
       </h2>
       <div className='mx-auto mt-5 flex max-w-fit space-x-4'>
-        <Link href='/onboarding'>
+        <Link href='/onboard'>
           <Button>Get Started</Button>
         </Link>
         <Link href='/contact'>

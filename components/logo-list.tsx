@@ -3,12 +3,12 @@
 export default function LogoList() {
   return (
     <div className='my-12'>
-      <p className='mx-auto max-w-sm text-center text-muted-foreground sm:max-w-xl sm:text-lg'>
+      <p className='mx-auto max-w-sm text-center text-foreground/80 sm:max-w-xl sm:text-lg'>
         Trusted by startups and industry veterans alike -
       </p>
-      <a
+      <div
         className='mx-auto mb-8 mt-8 grid w-full max-w-screen-lg grid-cols-2 items-center gap-8 px-5 md:mb-12 md:grid-cols-6 md:gap-12 md:px-0'
-        href='/customers'
+        // href='/customers'
       >
         <img
           alt='AE STUDIO'
@@ -70,10 +70,10 @@ export default function LogoList() {
           src='/logos/digital_twin_studios.svg'
           style={{ color: 'transparent' }}
         />
-      </a>
-      <a
+      </div>
+      <div
         className='mx-auto grid max-w-screen-lg grid-cols-2 items-center gap-8 px-5 md:grid-cols-6 md:gap-12 md:px-0'
-        href='/customers'
+        // href='/customers'
       >
         <img
           alt='DIVISION STREET'
@@ -135,7 +135,7 @@ export default function LogoList() {
           src='/logos/moonpay.svg'
           style={{ color: 'transparent' }}
         />
-      </a>
+      </div>
     </div>
   )
 }
