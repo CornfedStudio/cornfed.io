@@ -90,7 +90,7 @@ export default function Page() {
         <div>
           <div className='text-lg md:text-2xl'>Fill out the form below.</div>
           <div className='text-lg md:text-2xl'>
-            We&apos;ll follow up soon.
+            Thanks for reaching out.
           </div>
         </div>
       </div>
