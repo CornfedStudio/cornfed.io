@@ -36,7 +36,7 @@ const FormSchema = z.object({
     .optional(),
   message: z.string().min(1, {
     message: 'Please enter a message.'
-  }),
+  })
 })
 
 export default function Page() {
