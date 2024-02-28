@@ -345,7 +345,7 @@ export default function Page() {
                 render={({ field }) => (
                   <FormItem>
                     <FormLabel>
-                      AdditionalNotes <sup>(optional)</sup>
+                      Additional Notes <sup>(optional)</sup>
                     </FormLabel>
                     <FormControl>
                       <Textarea
