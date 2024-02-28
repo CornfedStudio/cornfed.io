@@ -145,14 +145,14 @@ export default function Page() {
 
   return (
     <div className='my-12 w-full'>
-      <div className='mb-12 space-y-4'>
-        <div className='text-2xl md:text-4xl'>Thanks for your interest.</div>
-        <div>
+      <div className='mb-8 space-y-4'>
+        <div className='text-4xl'>Get Started</div>
+        {/* <div>
           <div className='text-lg md:text-2xl'>Fill out the form below.</div>
           <div className='text-lg md:text-2xl'>
             We&apos;ll follow up soon.
           </div>
-        </div>
+        </div> */}
       </div>
       <Card className='rounded-3xl p-6'>
         <Form {...form}>
